@@ -1,8 +1,8 @@
 
-function apiFiltered(repository) {
+function apiFiltered(repository, language = 'C#') {
   const repoFiltered = []
   repository.filter(repo => {
-    if (repo.language === 'C#') {
+    if (repo.language === language) {
       repoFiltered.push({
         name: repo.full_name,
         description: repo.description,
@@ -14,5 +14,6 @@ function apiFiltered(repository) {
 
   return repoFiltered
 }
+
 
 module.exports = { apiFiltered };
