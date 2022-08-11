@@ -11,6 +11,7 @@ function apiFiltered(repository) {
       })
     }
   })  
+
   return repoFiltered
 }
 
