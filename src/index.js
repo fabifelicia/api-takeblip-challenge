@@ -1,6 +1,10 @@
+require('dotenv').config()
+const { apiFiltered } = require('./modules.js')
+
 const express = require('express')
 const axios = require('axios').default
-require('dotenv').config()
+
+
 
 const app = express()
 
@@ -17,19 +21,9 @@ app.get('/', (req, res) => {
 app.get('/api/v1/', (req, res) => {
     axios.get(url)
         .then(response => {
-          const repos = response.data
-          const reposCsharp = []
-
-          repos.filter(repo => {
-              if (repo.language === 'C#') {
-                reposCsharp.push({
-                  name: repo.full_name,
-                  description: repo.description,
-                  avatar: repo.owner.avatar_url,
-                  created: repo.created_at
-                })
-              }
-            })
+          
+          const reposCsharp = apiFiltered(response.data)
+          
           reposCsharp.sort((a, b) => a.created < b.created ? -1 : a.created > b.created ? 1 : 0)
           reposCsharp.splice(5) //remove a partir dos 5 primeiros repositorios
           res.status(200).send(reposCsharp)
