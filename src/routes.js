@@ -8,8 +8,7 @@ const QTD_REPOSITORIES = process.env.QTD_REPOSITORIES || 5
 
 Router.get('/api/v1/', (req, res) => {
     axios.get(url)
-        .then(response => {
-          
+        .then(response => {          
           const reposCsharp = apiFiltered(response.data)
 
           reposCsharp.sort((a, b) => a.created < b.created ? -1 : a.created > b.created ? 1 : 0)
