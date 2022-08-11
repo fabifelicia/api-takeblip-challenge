@@ -2,7 +2,7 @@ require('dotenv').config()
 const axios = require('axios').default
 const Router = require('express').Router()
 
-const { apiFiltered } = require('./modules.js')
+const { apiFiltered, arrayToDictionary } = require('./modules.js')
 const url = process.env.URL || 'https://api.github.com/users/takenet/repos'
 
 Router.get('/api/v1/', (req, res) => {
@@ -15,6 +15,7 @@ Router.get('/api/v1/', (req, res) => {
           reposCsharp.splice(5) //remove a partir dos 5 primeiros repositorios
           
           res.status(200).send(reposCsharp)
+
         })        
         .catch(err => {
             res.status(400).send(err)
