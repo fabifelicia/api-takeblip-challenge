@@ -1,16 +1,17 @@
 const express = require('express')
 const axios = require('axios').default
+require('dotenv').config()
 
 const app = express()
 
-const port = 3000
-const host = 'localhost'
-const url = 'https://api.github.com/users/takenet/repos'
+const port = process.env.PORT || 3000
+const host = process.env.HOST || 'localhost'
+const url = process.env.URL || 'https://api.github.com/users/takenet/repos'
 
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Server running')
 })
 
 app.get('/api/v1/', (req, res) => {
