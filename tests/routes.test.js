@@ -1,11 +1,10 @@
 const request = require('supertest')
-
-const api = require('../src/server')
+const api = require('../src/routes')
 
 
 describe('api-routes', () => {
   it('GET /api - success', async () => {
-    const response = await supertest(api).get('/v1/api/')
+    const response = await request(api).get('/v1/api/')
     expect(response.body).toEqual([
       {
         name: 'takenet/blip-sdk-csharp',
