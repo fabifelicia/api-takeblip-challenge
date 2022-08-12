@@ -13,7 +13,7 @@ Router.get('/api/v1/', (req, res) => {
 
           reposCsharp.sort((a, b) => a.created < b.created ? -1 : a.created > b.created ? 1 : 0)
           reposCsharp.splice(QTD_REPOSITORIES) //remove a partir dos 5 primeiros repositorios
-                  
+                    
           res.status(200).send(reposCsharp)
           
         })        

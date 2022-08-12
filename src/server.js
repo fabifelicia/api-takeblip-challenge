@@ -7,6 +7,7 @@ const { Router } = require('./routes')
 app.use(express.json())
 app.use(Router)
 
+
 app.get('/', (req, res) => {
   res.send({ message: 'Server running' })
 })
