@@ -50,5 +50,6 @@ describe(' Array Filtered', () => {
 
   it('should return an array empty', () => {
     expect(apiFiltered(arrayApi, '.NET')).toEqual([])
+    expect(apiFiltered([])).toEqual([])
   })
 })
