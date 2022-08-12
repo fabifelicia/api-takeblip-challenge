@@ -8,14 +8,13 @@
 </h1>
 
 <p align='center'>
-  <img src='https://img.shields.io/npm/v/npm?color=green'/>
-  <img src="https://img.shields.io/badge/node-v16.14.2-green"/>
-  <img src="https://img.shields.io/badge/express-v4.17.3-green"/>
-  <img src="https://img.shields.io/badge/dotenv-v16.0.0-yellow"/>
+  <img src='https://img.shields.io/badge/yarn-v1.22.15-blue'/>
+  <img src="https://img.shields.io/badge/node-v16.14.2-blue"/>
+  <img src="https://img.shields.io/badge/express-v4.18.1-blue"/>
+  <img src="https://img.shields.io/badge/dotenv-v16.0.1-blue"/>
   <img src="https://img.shields.io/badge/status-concluido-green"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: (concluído - aberto a melhorias)
 ## Tópicos
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
@@ -51,11 +50,11 @@ Response
 
 :heavy_check_mark: [Node v16.14.2](https://nodejs.org/en/download/)
 
-:heavy_check_mark: [Express v4.17.3](https://www.npmjs.com/package/express)
+:heavy_check_mark: [Express v4.18.1](https://www.npmjs.com/package/express)
 
 :heavy_check_mark: [Axios v0.27.2](https://www.npmjs.com/package/axios)
 
-:heavy_check_mark: [dotenv v16.0.0](https://www.npmjs.com/package/dotenv)
+:heavy_check_mark: [dotenv v16.0.1](https://www.npmjs.com/package/dotenv)
 
 :heavy_check_mark: [Jest v28.1.3](https://jestjs.io/pt-BR/)
 
