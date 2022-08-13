@@ -30,7 +30,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto desenvolvido como desafio proposto pela [Take Blip] (https://www.take.net) 
+  Projeto desenvolvido como desafio proposto pela [Take Blip](https://www.take.net) 
 
   Construção de um Contato Inteligente (bot) que consome dados através de uma api criada que realiza integração com a API pública do GitHub
 </p>
