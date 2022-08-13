@@ -31,7 +31,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto desenvolvido como desafio proposto pela [Take Blip](https://www.take.net/)
+  Projeto desenvolvido como desafio proposto pela [Take blip](https://www.take.net/)
 
   Construção de um Contato Inteligente (bot) que consome dados através de uma api criada que realiza integração com a API pública do GitHub
 </p>
@@ -79,6 +79,10 @@ Após instalação das dependências, inicie o projeto.
 yarn start
 
 ```
+
+###### Para mais informações sobre o projeto, [clique aqui](https://www.notion.so/TakeVirtues-d285ab73d0c741f49bb31360506c739c)
+###### Para visualizar o deploy da api, [clique aqui](https://api-takeblip-challenge.herokuapp.com/api/v1)
+
 ## Desenvolvedores/Contribuintes :octocat:
 
 [<img src="https://avatars.githubusercontent.com/u/39680930?v=4" width=115><br><sub>Fabiana Barreto</sub>](https://github.com/fabifelicia)
