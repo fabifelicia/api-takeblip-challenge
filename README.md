@@ -67,19 +67,17 @@ No terminal, clone o projeto:
 git clone https://github.com/fabifelicia/api-takeblip-challenge
 ```
 
-
-Entre na pasta do projeto e utilize o comando yarn para instalar as dependências do projeto.
+Navegue até a pasta da api e utilize o comando yarn para instalar as dependências:
 
 ```
 cd api
 yarn
 ```
 
-Após instalação das dependências, inicie o projeto.
+Após instalação das dependências, inicie o projeto:
 
 ```
 yarn start
-
 ```
 
 ###### Para mais informações sobre o projeto, [clique aqui](https://www.notion.so/TakeVirtues-d285ab73d0c741f49bb31360506c739c)
