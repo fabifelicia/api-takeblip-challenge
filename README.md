@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='./assets/take-image.png'/> 
+  <img src='./api/assets/take-image.png'/> 
 </p>
 
 <h1 align='center'>
@@ -67,9 +67,11 @@ No terminal, clone o projeto:
 git clone https://github.com/fabifelicia/api-takeblip-challenge
 ```
 
-Utilize o comando yarn para instalar as dependências do projeto.
+
+Entre na pasta do projeto e utilize o comando yarn para instalar as dependências do projeto.
 
 ```
+cd api
 yarn
 ```
 
