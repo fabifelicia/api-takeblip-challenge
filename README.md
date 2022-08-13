@@ -20,7 +20,7 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
+:small_blue_diamond: [Funcionalidade da API](#funcionalidade-da-api)
 
 :small_blue_diamond: [Rotas da Requisição](#rotas-da-requisição)
 
