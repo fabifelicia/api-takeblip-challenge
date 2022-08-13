@@ -3,6 +3,7 @@ const axios = require('axios').default
 const Router = require('express').Router()
 
 const { apiFiltered } = require('./modules.js')
+
 const url = process.env.URL || 'https://api.github.com/users/takenet/repos'
 const QTD_REPOSITORIES = process.env.QTD_REPOSITORIES || 5
 
@@ -18,9 +19,8 @@ Router.get('/api/v1/', (req, res) => {
           
         })        
         .catch(err => {
-            res.status(400).send(err)
+            res.status(404).send(err)
         })    
 })
-
 
 module.exports = { Router }
