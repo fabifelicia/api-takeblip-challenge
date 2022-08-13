@@ -2,7 +2,7 @@ require('dotenv').config()
 const axios = require('axios').default
 const Router = require('express').Router()
 
-const { apiFiltered, arrayToDictionary } = require('./modules.js')
+const { apiFiltered } = require('./modules.js')
 const url = process.env.URL || 'https://api.github.com/users/takenet/repos'
 const QTD_REPOSITORIES = process.env.QTD_REPOSITORIES || 5
 
