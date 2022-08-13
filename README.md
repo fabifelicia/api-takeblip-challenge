@@ -54,7 +54,7 @@ Response
 
 :heavy_check_mark: [Express v4.18.1](https://www.npmjs.com/package/express)
 
-:heavy_check_mark: [Axios v0.27.2](https://www.npmjs.com/package/axios)
+:heavy_check_mark: [Axios v0.27.2](https://axios-http.com/)
 
 :heavy_check_mark: [dotenv v16.0.1](https://www.npmjs.com/package/dotenv)
 
