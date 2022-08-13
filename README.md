@@ -83,3 +83,5 @@ yarn start
 [<img src="https://avatars.githubusercontent.com/u/39680930?v=4" width=115><br><sub>Fabiana Barreto</sub>](https://github.com/fabifelicia)
 
 Copyright :copyright: 2022 - Take Blip
+
+[![CodeFactor](https://www.codefactor.io/repository/github/fabifelicia/api-takeblip-challenge/badge)](https://www.codefactor.io/repository/github/fabifelicia/api-takeblip-challenge)
