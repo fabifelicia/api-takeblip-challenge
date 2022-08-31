@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/express-v4.18.1-blue"/>
   <img src="https://img.shields.io/badge/dotenv-v16.0.1-blue"/>
   <img src="https://img.shields.io/badge/status-concluido-green"/>
-  <img src="https://heroku-badge.herokuapp.com/?app=heroku-badge"/> 
+  <img src="https://img.shields.io/badge/deploy-heroku-green"/> 
 </p>
 
 ## Tópicos
