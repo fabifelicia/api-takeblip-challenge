@@ -83,7 +83,7 @@ yarn start
 
 ###### Para mais informações sobre o projeto, [clique aqui](https://exciting-sodium-7e9.notion.site/TakeVirtues-d285ab73d0c741f49bb31360506c739c)
 ###### Para visualizar o funcionamento do bot, [clique aqui](https://youtu.be/yC0lLhIG7lk)
-###### Para visualizar o deploy da api, [clique aqui](https://api-takeblip-challenge.herokuapp.com/api/v1)
+###### Para visualizar o deploy da api, [clique aqui](https://api-takeblip-challenge.onrender.com/api/v1)
 
 ## Desenvolvedores/Contribuintes :octocat:
 
