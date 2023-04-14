@@ -15,5 +15,4 @@ function apiFiltered(repository, language = 'C#') {
   return repoFiltered
 }
 
-
 module.exports = { apiFiltered };
