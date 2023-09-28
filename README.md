@@ -1,10 +1,10 @@
 <p align='center'>
-  <img src='./api/assets/take-image.png'/> 
+  <img src='https://www.blip.ai/wp-content/uploads/2023/06/logotipo.svg'/> 
 </p>
 
 <h1 align='center'>
 
-   Take Blip - Challenge
+   Blip - Challenge
 </h1>
 
 <p align='center'>
@@ -32,7 +32,7 @@
 
 <p align="justify">
 
-  Projeto desenvolvido como desafio proposto pela [Take Blip](https://www.take.net/)
+  Projeto desenvolvido como desafio proposto pela [Blip](https://www.take.net/)
 
   Construção de um Contato Inteligente (bot) que consome dados através de uma api criada que realiza integração com a API pública do GitHub
 </p>
