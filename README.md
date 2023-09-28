@@ -39,7 +39,7 @@
 
 ## Funcionalidade da API
 
-:heavy_check_mark: Listar repositórios de linguagem C# da página da Take Blip no GitHub
+:heavy_check_mark: Listar repositórios de linguagem C# da página da Blip no GitHub
 
 ## Rotas da Requisição
 
