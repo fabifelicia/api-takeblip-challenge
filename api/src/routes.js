@@ -8,7 +8,11 @@ const url = process.env.URL || 'https://api.github.com/users/takenet/repos'
 const QTD_REPOSITORIES = process.env.QTD_REPOSITORIES || 5
 
 Router.get('/api/v1/', (req, res) => {
-    axios.get(url)
+    axios.get(url, {
+      headers: {
+        'User-Agent': 'takenet'
+      }
+    })
         .then(response => {          
           const reposCsharp = apiFiltered(response.data)
 
