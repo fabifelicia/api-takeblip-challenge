@@ -8,7 +8,7 @@
 </h1>
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/yarn-v1.22.15-blue'/>
+  <img src='https://img.shields.io/badge/yarn-v1.22.19-blue'/>
   <img src="https://img.shields.io/badge/node-v16.14.2-blue"/>
   <img src="https://img.shields.io/badge/express-v4.18.1-blue"/>
   <img src="https://img.shields.io/badge/dotenv-v16.0.1-blue"/>
